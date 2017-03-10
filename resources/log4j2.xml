@@ -2,7 +2,7 @@
 <Configuration status="WARN">
   <Appenders>
     <Console name="Console" target="SYSTEM_OUT">
-      <PatternLayout pattern="%d - %msg%n"/>
+      <PatternLayout pattern="%d %p %logger{36} %m%n"/>
     </Console>
     <File name="File" fileName="my-spring-test.log">
       <PatternLayout>

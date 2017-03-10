@@ -22,7 +22,7 @@ public class App {
 		
 		ApplicationContext appContext = SpringApplication.run(App.class, args);
 		
-		LogManager.getLogger().debug("Finished");
+		LogManager.getLogger().debug("Finished initializing context " + appContext);
 	}
 	
 	

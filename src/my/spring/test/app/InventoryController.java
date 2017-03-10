@@ -16,12 +16,13 @@ import my.spring.test.app.model.InventoryItem;
 
 @RestController
 @RequestMapping("/inventory")
+
 public class InventoryController {
 
 	private Logger log = LogManager.getLogger();
 	
 	@Autowired
-	private InventoryRepository repository;
+	private InventoryItemRepository repository;
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<List<InventoryItem>> findAll() {
@@ -34,7 +35,6 @@ public class InventoryController {
 		log.debug("Fetching item " + itemId);
 		return new ResponseEntity<>(repository.findOne(itemId), HttpStatus.OK);
 	}
-	
 	
 	
 }
