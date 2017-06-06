@@ -1,1 +1,0 @@
-CREATE TABLE inventory_item (description VARCHAR (200), make VARCHAR (100), model VARCHAR (100), year VARCHAR (4))
