@@ -18,6 +18,61 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../epam/business-travel-system/BusinessTravelSystem/src/main/java/com/epam/bts/controller/CalendarController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../epam/business-travel-system/BusinessTravelSystem/src/main/java/com/epam/bts/service/CalendarService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/lpa-validator.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/ProfileValidationProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/ProfileValidationResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/ProfileValidationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/Reporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/profile/validation/ProfileBlockValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/java/com/fl/wld/lpa/validator/service/reporting/Reporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lpa-feed-validator/src/main/resources/log4j2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -63,7 +118,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/spring/test/app/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/spring/test/app/InventoryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/spring/test/app/MyAppController.java">
           <value>
             <set />
           </value>
@@ -119,6 +184,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/config/LpaFeedApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/controller/AdminController.java">
           <value>
             <set />
           </value>
@@ -223,6 +293,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/CsvFileReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/ReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/impl/CsvFileReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/impl/H2ReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/status/FeedReaderExecutionProgress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/status/FeedReaderExecutionReport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BatchMessageLoader.java">
           <value>
             <set />
@@ -293,6 +393,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/webapp/admin/feed.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/controller/HealthCheckerControllerTest.java">
           <value>
             <set />
@@ -359,6 +464,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/GenericBatchProcessingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/MessageLoaderCsvFileReporterTest.java">
           <value>
             <set />
           </value>

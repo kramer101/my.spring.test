@@ -1,6 +1,7 @@
 package my.spring.test.app;
 
 
+import java.net.URL;
 import org.apache.logging.log4j.LogManager;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -29,6 +30,13 @@ public class App {
 		ApplicationContext appContext = SpringApplication.run(App.class, args);
 		
 		LogManager.getLogger().debug("Finished initializing context " + appContext);
+
+		URL system = ClassLoader.getSystemClassLoader().getResource(".");
+
+		URL context = Thread.currentThread().getContextClassLoader().getResource(".");
+
+		System.out.println(system);
+		System.out.println(context);
 	}
 
 
@@ -38,7 +46,7 @@ public class App {
 			executor = new ThreadPoolTaskExecutor();
 			executor.setCorePoolSize(1);
 			executor.setMaxPoolSize(1);
-			executor.setQueueCapacity(1);
+			executor.setQueueCapacity(0);
 			executor.setThreadNamePrefix("my-spring-test-");
 			executor.initialize();
 		}

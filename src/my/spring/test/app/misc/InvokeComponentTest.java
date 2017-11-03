@@ -1,6 +1,7 @@
 package my.spring.test.app.misc;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.Async;
@@ -26,6 +27,9 @@ public class InvokeComponentTest {
     /*@Value("${cron.expression}")
     private String cronValue;*/
 
+    @Value("input.dir.scan.enabled")
+    private String scanEnabled;
+
 
     @Autowired
     public InvokeComponentTest(final ApplicationContext appContext) {
@@ -36,7 +40,6 @@ public class InvokeComponentTest {
 
 
     @Async("test-executor")
-    @Scheduled(cron = "${cron.expression}")
     public synchronized void doTest() {
         try {
             getTestComponent().test(report);
@@ -44,6 +47,17 @@ public class InvokeComponentTest {
             eParam.printStackTrace();
         }
     }
+
+    @Async("test-executor")
+    @Scheduled(cron = "${cron.expression}")
+    public synchronized void doTestScheduled() {
+        if (!Boolean.valueOf(scanEnabled)) {
+            System.out.println("input.dir.scan.enabled is FALSE");
+            return;
+        }
+        doTest();
+    }
+
 
     private TestComponent getTestComponent() {
         return  appContext.getBean(TestComponent.class);
